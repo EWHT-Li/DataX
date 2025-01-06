@@ -97,6 +97,11 @@
             <artifactId>groovy-all</artifactId>
             <version>2.1.9</version>
         </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId><!-- 非必要为了兼容新增转换器中的需要使用的MongoObjectId生成逻辑 -->
+            <artifactId>bson</artifactId>
+            <version>3.11.1</version> 
+        </dependency>
     </dependencies>
 
     <build>
