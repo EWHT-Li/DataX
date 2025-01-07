@@ -39,4 +39,7 @@ public final class Key {
     public final static String TABLE_RULE = "tableRule";
 
     public final static String DRYRUN = "dryRun";
+
+    //约束键
+    public final static String INDEX_COLUMNS = "indexColumns";
 }
